@@ -1,0 +1,131 @@
+body {
+  background-color: #FEF6F1; 
+  color: #111111;
+  margin-right: 32px;
+  margin-left: 32px;
+}
+
+h1 {
+  clear: both;
+  color: #662C2C;
+  font-family: Helvetica;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -1.6px;
+}
+
+h2 {
+  color: #662C2C;
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+} 
+
+h3 {
+  color: #662C2C;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+p {
+  color: #111111;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+p2 {
+  color: #111111;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+a:link {
+  color: #111111;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-weight: 300;
+}
+
+a:hover {
+  color: #8A8DA1;
+  background-color: transparent;
+  font-family: Helvetica;
+  font-weight: 300;
+}
+
+a:active {
+  color: #8A8DA1;
+  background-color: transparent;
+  font-family: Helvetica;
+  font-weight: 300;
+}
+
+.nav {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav li {
+  display: flex;
+  font-size: 16px;
+}
+
+.footer {
+padding-top: 48px;
+padding-bottom: 48px;
+color: #111111;
+font-family: Helvetica;
+font-size: 16px;
+font-weight: 300;
+}
+
+.menu {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item p {
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.drink {
+  text-align: left;
+  width: 50%;
+}
+
+.description {
+  text-align: left;
+  width: 50%;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.from {
+  text-align: right;
+  width: 50%;
+}
+
+.photo-table {
+  width: 100%;
+  max-width: 900px;
+  margin: 24px auto;
+  border-collapse: separate; 
+  border-spacing: 18px;      
+}
+
+.photo-table td {
+  width: 50%;
+  vertical-align: top;
+  padding: 0;
+  text-align: center;
+}
