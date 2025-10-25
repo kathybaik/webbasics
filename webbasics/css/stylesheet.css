@@ -64,6 +64,10 @@ a:active {
   font-weight: 300;
 }
 
+a:visited {
+  color: #111111; 
+}
+
 .nav {
   display: flex;
   padding: 0;
